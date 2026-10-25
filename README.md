@@ -19,12 +19,14 @@ will grow as I move forward.
 ## Repository structure
 
 ```
-freeCodeCamp/
+freecodecamp-full-stack-course/
 └── Responsive-Web-Design Certification/
     ├── HTML/
     │   ├── build-a-survey-form/
     │   └── accesibility/
-    │       └── build-a-multimedia-player/
+    │       ├── build-a-checkout-page/
+    │       ├── build-a-multimedia-player/
+    │       └── design-a-movie-review-page/
     └── CSS/
         ├── basic-css/
         │   ├── build-a-stylized-to-do-list/
@@ -44,12 +46,22 @@ Each lab lives in its own folder and follows the same convention:
 
 ## Labs
 
+### HTML
+
 - [x] Build a Survey Form
 - [x] Build a Multimedia Player
+- [x] Build a Checkout Page
+- [x] Design a Movie Review Page
+
+### CSS
+
 - [x] Build a Stylized To-Do List
 - [x] Design a Blog Post Card
 - [x] Design a Business Card
 - [x] Build an Event Player Page
+
+Each certification section is developed in its own branch and merged into `main`
+through a pull request, so the history shows how the repository grew.
 
 ## How to run
 
@@ -59,7 +71,7 @@ JavaScript.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Geffrerson7/freeCodeCamp.git
+   git clone https://github.com/Geffrerson7/freecodecamp-full-stack-course.git
    ```
 
 2. Open the `index.html` of any lab in your browser, or serve the root folder
