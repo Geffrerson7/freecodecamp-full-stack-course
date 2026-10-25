@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2ecc71, #3498db);
+}
+
+.blog-post-card {
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(135deg, #2ecc71, #3498db) 1;
+  border-radius: 10px 10px 0 0;
+}
+
+.post-content {
+  padding: 2px;
+}
+
+.post-title {
+  color: #1a1f2c;
+  margin: 12px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+}
+
+.post-excerpt {
+  font-family: "Inter", sans-serif;
+  color: #4a5568;
+  margin: 16px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.read-more {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: #4162f2; 
+    
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: inline-block;
+    width: 85%;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(65, 98, 242, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* EFECTO HOVER */
+.read-more:hover {
+    background-color: #2a47c7; 
+    transform: translateY(-2px); /* Efecto de elevación */
+    box-shadow: 0 6px 15px rgba(65, 98, 242, 0.4);
+}
+
