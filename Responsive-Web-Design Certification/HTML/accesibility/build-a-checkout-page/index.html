@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <main>
+        <h1>Checkout</h1>
+
+        <section>
+            <h2>Your Cart</h2>
+            <article>
+                <img
+                    src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+                    alt="A colorful 3x3 Rubik's cube with several rows twisted out of place"
+                    width="200"
+                >
+                <h3>Rubik's Cube — Classic 3x3 Puzzle</h3>
+                <p>Price: $14.99</p>
+                <p>Quantity: 1</p>
+                <p>Subtotal: $14.99</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Payment Information</h2>
+            <form action="/checkout" method="post">
+                <p>Fields marked with <span aria-hidden="true">*</span> are required.</p>
+
+                <div>
+                    <label for="card-name">Name on card <span aria-hidden="true">*</span></label>
+                    <input type="text" id="card-name" name="card-name" autocomplete="cc-name" required>
+                </div>
+
+                <div>
+                    <label for="card-number">Card number <span aria-hidden="true">*</span></label>
+                    <input
+                        type="text"
+                        id="card-number"
+                        name="card-number"
+                        inputmode="numeric"
+                        autocomplete="cc-number"
+                        aria-describedby="card-number-help"
+                        required
+                    >
+                    <p id="card-number-help">Enter the 16 digits of your card with no spaces or dashes, for example 1234567812345678.</p>
+                </div>
+
+                <div>
+                    <label for="card-expiry">Expiry date <span aria-hidden="true">*</span></label>
+                    <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/YY" autocomplete="cc-exp" required>
+                </div>
+
+                <div>
+                    <label for="card-cvc">Security code <span aria-hidden="true">*</span></label>
+                    <input type="text" id="card-cvc" name="card-cvc" inputmode="numeric" autocomplete="cc-csc" required>
+                </div>
+
+                <button type="submit">Pay $14.99</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
