@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title center">Job Application Form</h1>
+      <p class="description center">
+        Please fill out this form carefully to apply for our open developer
+        positions.
+      </p>
+      <form action="">
+        <fieldset>
+          <legend>Candidate Information</legend>
+          <label for="name">Full name: </label>
+          <input type="text" id="name" placeholder="Eg.: John Doe" required />
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Eg.: john.doe@email.com"
+            required
+          />
+          <label for="position">Position: </label>
+          <select name="" id="position" required>
+            <option value="" disabled selected>Select a position...</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Full-Stack Developer</option>
+            <option value="designer">UI/UX Designer</option>
+            <option value="qa-engineer">QA Engineer</option>
+          </select>
+        </fieldset>
+        <fieldset class="radio-group">
+          <legend>Availability</legend>
+          <input
+            type="radio"
+            name="availability"
+            id="full-time"
+            value="full-time"
+            class="availability-radio-btn"
+            checked
+          />
+          <label for="full-time" class="availability">Full-Time</label>
+          <input
+            type="radio"
+            name="availability"
+            id="part-time"
+            value="part-time"
+            class="availability-radio-btn"
+          />
+          <label for="part-time" class="availability">Part-Time</label>
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <label for="message">Add a personal message</label>
+          <textarea name="" id="message" cols="50" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit" class="center">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
