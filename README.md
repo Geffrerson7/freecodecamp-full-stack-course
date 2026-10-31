@@ -23,17 +23,49 @@ freecodecamp-full-stack-course/
 └── Responsive-Web-Design Certification/
     ├── HTML/
     │   ├── build-a-survey-form/
+    │   ├── basic-html/
+    │   │   ├── build-a-bookstore-page/
+    │   │   ├── build-a-cat-photo-app/
+    │   │   ├── build-a-curriculum-outline/
+    │   │   ├── build-a-heart-icon/
+    │   │   ├── build-a-recipe-page/
+    │   │   ├── build-a-travela-agency-page/
+    │   │   ├── build-a-video-compilation-page/
+    │   │   ├── build-a-video-display-using-iframe/
+    │   │   ├── build-an-html-audio-and-video-player/
+    │   │   ├── build-an-html-music-player/
+    │   │   ├── build-an-html-video-player/
+    │   │   ├── debug-a-pet-adoption-page/
+    │   │   └── debug-camperbot-s-profile-page/
+    │   ├── semantic-html/
+    │   │   ├── build-a-cat-blog-page/
+    │   │   ├── build-a-list-of-major-web-browsers/
+    │   │   ├── build-an-event-hub/
+    │   │   └── build-quincys-job-tips-page/
+    │   ├── forms-and-table/
+    │   │   ├── build-a-book-catalog-table/
+    │   │   ├── build-a-final-exams-table/
+    │   │   └── build-a-hotel-feedback-form/
     │   └── accesibility/
     │       ├── build-a-checkout-page/
     │       ├── build-a-multimedia-player/
+    │       ├── build-a-tech-conference-schedule-table/
+    │       ├── build-an-accesible-audio-controller/
+    │       ├── debug-a-coding-journey-blog-page/
+    │       ├── debug-a-donation-form/
     │       └── design-a-movie-review-page/
     └── CSS/
         ├── basic-css/
         │   ├── build-a-stylized-to-do-list/
         │   ├── design-a-blog-post-card/
-        │   └── design-a-business-card/
-        └── absolute-and-relative-units/
-            └── build-a-event-player-page/
+        │   ├── design-a-business-card/
+        │   └── design-a-cafe-menu/
+        ├── absolute-and-relative-units/
+        │   └── build-a-event-player-page/
+        └── pseudo-classes-and-elements/
+            ├── build-a-job-application-form/
+            ├── design-a-greeting-card/
+            └── design-a-parent-teacher-conference-form/
 ```
 
 Each lab lives in its own folder and follows the same convention:
