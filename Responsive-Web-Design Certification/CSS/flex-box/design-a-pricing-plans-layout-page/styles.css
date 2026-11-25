@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #f8fafc;
+}
+
+h1 {
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 2.25rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #9810fa, #2b7fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+  background-color: #f3e8ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.15);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pricing-card p:nth-child(2) {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.pricing-card p:nth-child(3) {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.check {
+  color: #16a34a;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+}
+
+.premium-plan {
+  order: 2;
+}
+
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(to right, #9810fa, #2b7fff);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  transition:
+    filter 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.25);
+}
